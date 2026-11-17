@@ -1,19 +1,19 @@
 export default function Home() {
-  return(<figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-  <img class="w-24 h-24 md md:rounded-none rounded-full mx-auto" src="/hafiza-laiba.jpg" alt="" width="384" height="512">
-  <div class="pt-6 md:p-8 text-center space-y-4">
+  return(<figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img className="w-24 h-24 md md:rounded-none rounded-full mx-auto" src="/laiba.jpg" alt="" width="384" height="512"/>
+  <div className="pt-6 md:p-8 text-center space-y-4">
     <blockquote>
-      <p class="text-lg font-medium">
+      <p className="text-lg font-medium">
         “Tailwind CSS is the only framework that I've seen scale
         on large teams. It’s easy to customize, adapts to any design,
         and the build size is tiny.”
       </p>
        </blockquote>
-    <figcaption class="font-medium">
-      <div class="text-sky-500 dark:text-sky-400">
+    <figcaption className="font-medium">
+      <div className="text-sky-500 dark:text-sky-400">
         Hafiza Laiba
       </div>
-      <div class="text-slate-700 dark:text-slate-500">
+      <div className="text-slate-700 dark:text-slate-500">
         AI Developer
       </div>
     </figcaption>
